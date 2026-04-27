@@ -15,4 +15,4 @@ Repositoryt är uppdelat i huvudmappar för varje student. Varje studentmapp inn
 * `/software` – Script och programkod (t.ex. bash-script för sökningar).
 * `/runs` – Information om körningar och parametrar.
 
-
+Uppdatering
