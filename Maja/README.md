@@ -1,3 +1,5 @@
+![plot](piture.png)
+
 # Kurs: BL2037 - Bioinformatik
 
 Detta repository innehåller allt material och alla inlämningar för kursen BL2037. 
