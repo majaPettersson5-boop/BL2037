@@ -1,4 +1,4 @@
-![plot](piture.png)
+![plot](prbild.png)
 
 # Kurs: BL2037 - Bioinformatik
 
