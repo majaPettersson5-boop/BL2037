@@ -1,0 +1,8 @@
+GeneID,Condition,TPM,expression_level,Replicate
+EGFR,Control,110.4,110.4,1
+GAPDH,Control,500.5,500.5,1
+ACTB,Control,480.2,480.2,1
+EGFR,Treated,200.5,200.5,2
+MYC,Treated,150.2,150.2,2
+GAPDH,Treated,505.1,505.1,2
+ACTB,Treated,475.4,475.4,2
