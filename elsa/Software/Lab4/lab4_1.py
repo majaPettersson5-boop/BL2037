@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 parser = argparse.ArgumentParser()
 
-parser.add_argument("input_csv")
-parser.add_argument("output_png")
+parser.add_argument("input_csv", help="Path to the input CSV file")
+parser.add_argument("output_png", help="Path to the output PNG file")
 
 args = parser.parse_args()
 # Ladda data
