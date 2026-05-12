@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# 1. Definiera variabler för sökvägarna
-# Eftersom vi kör skriptet inifrån software/lab4 måste vi backa (../..) 
-# för att nå data- och results-mapparna.
-INPUT_FILE="../../data/lab3/gene_expression.csv"
-OUTPUT_FILE="../../results/lab4/hist.png"
+# Definiera variabler för att göra det lättläst
+INPUT="./data/lab3/gene_expression.csv"
+OUTPUT="./results/lab4/hist.png"
 
-# 2. Kör python-skriptet med variablerna som argument
-echo "Startar lab4_1.py..."
-python lab4_1.py "$INPUT_FILE" "$OUTPUT_FILE"
+echo "Startar analys av $INPUT..."
 
-echo "Bash-skriptet är klart!"
+# Här använder vi de nya flaggorna --input_csv och --output_dir
+python software/lab4/lab4_1.py --input_csv "$INPUT" --output_dir "$OUTPUT"
+
+echo "Histogrammet har skapats i $OUTPUT"
