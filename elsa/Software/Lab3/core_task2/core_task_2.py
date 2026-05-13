@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Ladda data (OBS: stor/liten bokstav på Data!)
-df = pd.read_csv("../../../Data/Lab3/gene_expression.csv")
+df = pd.read_csv("C:\Users\Thinkpad\OneDrive\Universitetet\Programmering\BL2037\elsa\Data\Lab3\gene_expression.csv")
 
 # --- Statistik ---
 print("\n--- Summary Statistics ---")
